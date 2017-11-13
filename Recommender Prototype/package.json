@@ -1,0 +1,17 @@
+{
+  "name": "ktrecsys",
+  "version": "1.0.0",
+  "description": "creativity technique recommender",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas Kammerloher",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.12.0"
+  }
+}

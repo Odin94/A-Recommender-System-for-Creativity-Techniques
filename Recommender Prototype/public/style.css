@@ -1,0 +1,422 @@
+html,
+body,
+.cover {
+    height: 100%;
+
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+    background-color: #333;
+    color: white;
+}
+
+.cover {
+    /*background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%) top left no-repeat;*/
+    background-size: cover;
+    position: relative;
+}
+
+#header {
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+#goalChoice,
+/*.stepTwo */
+{
+    text-align:center;
+    position:absolute;
+    width:100%;
+
+}
+
+#goalChoice {
+    margin-top: 10px;
+}
+
+.stepOneColumn {
+    margin-bottom: 0;
+}
+
+#goals {
+    margin-top: 40px;
+}
+
+#goals .col {
+    border: 1px solid black;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 150px;
+
+    background-color: #171717;
+    /*text-transform: capitalize;*/
+    text-decoration: none;
+
+    -webkit-transition: background-color 300ms linear, color 300ms linear;
+    -ms-transition: background-color 300ms linear, color 300ms linear;
+    transition: background-color 300ms linear, color 300ms linear;
+}
+
+#explanations .col {
+    border: 1px solid black;
+    border-top: none;
+
+    height: 170px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /*background-color: #171717;*/
+    text-transform: none;
+}
+
+#explanations .col + .col {
+    border-left: none;
+}
+
+#explanations .col:hover {
+    cursor: pointer;
+}
+
+#goals .col:hover {
+    background-color: #222;
+    cursor: pointer;
+}
+
+#goals .col + .col {
+    border-left: none;
+}
+
+#goals .col.selectedGoal {
+    background-color: #eee;
+    color: #333;
+    text-decoration: underline;
+    text-decoration-style: none;
+}
+
+#goals .col p {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+#KOCriteria {
+    background-color: #aaa;
+    color: #333;
+
+    display: inline-block;
+    padding: 0 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+fieldset {
+    vertical-align: top;
+}
+
+.filterSlider {
+    margin-bottom: 30px;
+}
+
+.filterSlider > .slider {
+    margin-left: 10px;
+    text-align: right;
+}
+
+.filterSlider.menge > .slider {
+    margin-left: 30px;
+}
+.filterSlider.quali > .slider {
+    margin-left: 21px;
+}
+.filterSlider.divers {
+    margin-bottom: 0;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    background-color: #333;
+}
+
+li {
+    text-align: left;
+}
+
+#generateRecommendations {
+    display: inline-block;
+    clear: both;
+}
+
+/* Somewhere around here part 2 starts */
+
+.stepTwo {
+   /*font-size: 48px;*/
+   /*text-align: center;*/
+   /*margin: 30px 0;*/
+    
+    /* keep at top even if stepOne is still busy fading */
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    display: none;
+}
+
+.techniqueRecommendation {
+    color: #333;
+    height: 420px;
+}
+
+.techniqueRecommendation > div > div > a {
+    font-size: 0.4em;
+}
+
+.descriptionAndLinkWrapper {
+    line-height: 10px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+/*.techniqueProperties {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}*/
+
+.techniqueProperties + .techniqueProperties {
+    border-bottom: 1px solid #333;
+}
+
+.jumbotron {
+    padding-top: 3px;
+}
+.jumbotron h1 {
+    margin-top: 15px;
+    font-size: 45px;
+}
+
+.jumbotron p {
+    font-size: 18px;
+}
+
+hr {
+    border-top: 1px dotted #333;
+}
+
+p.propertyLabel {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#firstAnotherButton,
+#secondAnotherButton,
+#thirdAnotherButton {
+    position: absolute;
+    bottom: 55px;
+    left: 27%;
+}
+
+#filteringProperties,
+#criticism {
+    margin-top: 5px;
+
+    background: #aaa;
+    border-radius: 7px;
+    padding: 20px;
+
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+#filteringProperties h1,
+#criticism h1 {
+    margin-top: 5px;
+}
+
+#criticism button {
+    margin: 12px 0;
+    width: 90%;
+}
+
+i.fa {
+    font-size: 2em;
+    float: left;
+}
+
+.form-group {
+    border: 1px dotted black;
+    border-radius: 7px;
+
+    display: inline-block;
+    padding: 10px;
+
+    text-align: left;
+}
+
+.lifted {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/*2nd screen thingies*/
+.list-group-horizontal .list-group-item {
+    display: inline-block;
+
+    line-height: 40px;
+    font-size: 1.5em;
+    background: #222;
+}
+.list-group-horizontal .list-group-item {
+    margin-bottom: 0;
+    margin-left:-4px;
+    margin-right: 0;
+    margin-top: 0;
+}
+.list-group-horizontal .list-group-item:first-child {
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+    border-bottom-left-radius:4px;
+}
+.list-group-horizontal .list-group-item:last-child {
+    border-top-right-radius:4px;
+    border-bottom-left-radius:0;
+    border-top-right-radius:0;
+}
+
+i.fa {
+    float: none;
+    line-height: inherit;
+    font-size: inherit;
+}
+
+#undoButton {
+    background: #151515;
+    margin-top: -6px;
+    margin-right: 8px;
+}
+
+#editButton {
+    background: #151515;
+    margin-top: -6px;
+    margin-left: 5px;
+}
+#editButton:hover,
+#undoButton:hover {
+    background: #222;
+    cursor: pointer;
+}
+
+.whiteHR {
+    border-top: 1px solid #eee;
+}
+
+#critiques {
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+#critiques h2 {
+    color: #333;
+}
+
+.progress {
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+#critiques .btn {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.techniqueDescription {
+    min-height: 350px;
+}
+
+.techniqueDescription > p {
+    text-align: left;
+}
+
+.techniqueProperties {
+    border-left: 1px solid #333;
+
+    height: 100%;
+    position: absolute;
+    right: 0px;
+}
+
+.techniqueProperties h4 {
+    text-align: left;
+}
+
+.technique {
+    margin-bottom: 20px;
+
+    background-color: #eee;
+    border-radius: 5px;
+    color: #333;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1550px) and (min-width: 501px) {
+    #header {
+        font-size: 45px;
+    }
+
+    .techniqueRecommendation h1 {
+        font-size: 40px;
+    }
+
+    .btn-group-lg>.btn, .btn-lg {
+        font-size: 12px;
+    }
+
+    #goals .col h3 {
+        font-size: 20px;
+    }
+    #explanations .col h4 {
+        font-size: 15px;
+    }
+
+    .jumbotron h1 {
+        font-size: 35px;
+    }
+
+    .jumbotron p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 501px) {
+    .jumbotron p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #header {
+        font-size: 35px;
+    }
+
+    .btn-group-lg>.btn, .btn-lg {
+        font-size: 12px;
+    }
+
+    #goals .col h3 {
+        font-size: 20px;
+    }
+    #explanations .col h4 {
+        font-size: 15px;
+    }
+
+    .jumbotron h1 {
+        font-size: 35px;
+    }
+
+    .jumbotron p {
+        font-size: 12px;
+    }
+}

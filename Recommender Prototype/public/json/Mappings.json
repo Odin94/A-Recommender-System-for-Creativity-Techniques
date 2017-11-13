@@ -1,0 +1,91 @@
+{
+  "boden_types" : {
+    "e" : "exploration",
+    "c" : "combination",
+    "t" : "transformation",
+    "v" : "validation",
+    "-" : ""
+  },
+  "activity" : {
+    "s" : "structuring",
+    "f" : "free association",
+    "d" : "different views",
+    "e" : "expert knowledge",
+    "r" : "random input",
+    "q" : "question lists",
+    "-" : ""
+  },
+  "problem_recognition" : {
+    "p" : "problem recognition",
+    "-" : ""
+  },
+  "search_for_knowledge" : {
+    "q" : "questions",
+    "e" : "experiments",
+    "-" : ""
+  },
+  "activation_of_knowledge" : {
+    "a" : "association",
+    "m" : "mental stimulation",
+    "f" : "forgetting",
+    "-" : ""
+  },
+  "restructuring_of_knowledge" : {
+    "c" : "concept formation",
+    "a" : "adaption",
+    "t" : "transfer/induction",
+    "i" : "inference/reformulation",
+    "r" : "reindexing",
+    "-" : ""
+  },
+  "evaluation" : {
+    "e" : "evaluation",
+    "-" : ""
+  },
+  "knowledge_type" : {
+    "p" : "problem",
+    "d" : "domain",
+    "s" : "solution",
+    "-" : ""
+  },
+  "physical" : {
+    "y" : "yes",
+    "n" : "no",
+    "-" : ""
+  },
+  "usertype" : {
+    "s" : "single",
+    "g" : "group",
+    "-" : ""
+  },
+  "emotional" : {
+    "y" : "yes",
+    "n" : "no",
+    "-" : ""
+  },
+  "complex" : {
+    "y" : "yes",
+    "n" : "no",
+    "-" : ""
+  },
+  "webusable" : {
+    "y" : "yes",
+    "n" : "no",
+    "-" : ""
+  },
+  "interactive" : {
+    "y" : "yes",
+    "n" : "no",
+    "-" : ""
+  },
+  "driving_source" : {
+    "d" : "data",
+    "t" : "technique",
+    "-" : ""
+  },
+  "distance" : {
+    "n" : "near",
+    "f" : "far",
+    "-" : ""
+  }
+}

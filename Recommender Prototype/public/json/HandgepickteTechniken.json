@@ -1,0 +1,785 @@
+{
+    "Analogietechnik": {
+        "ktSelectorName": "Analogies",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "kurz",
+        "schwierigkeit": "2",
+        "ideenmenge": "4",
+        "spass": "2",
+        "ideenqualitaet": "4",
+        "ideenabwegigkeit": "4",
+        "anwendungsbereiche": [
+            "Werbung, Verkaufsförderung",
+            "Namensfindung"
+        ]
+    },
+    "Brainwriting": {
+        "ktSelectorName": "Brainwriting",
+        "gruppe": "5-8",
+        "moderiert": "yn",
+        "dauer": "kurz",
+        "schwierigkeit": "1",
+        "ideenmenge": "3",
+        "spass": "3",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Attribute Listing": {
+        "ktSelectorName": "Attribute Listing",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "kurz",
+        "schwierigkeit": "3",
+        "ideenmenge": "3",
+        "spass": "2",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Battelle-Methode": {
+        "ktSelectorName": "Synetics",
+        "gruppe": "5-7",
+        "moderiert": "y",
+        "dauer": "lange",
+        "schwierigkeit": "4",
+        "ideenmenge": "4",
+        "spass": "4",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "4",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Bionik": {
+        "ktSelectorName": "-",
+        "gruppe": "4-6",
+        "moderiert": "n",
+        "dauer": "mittel",
+        "schwierigkeit": "4",
+        "ideenmenge": "4",
+        "spass": "3",
+        "ideenqualitaet": "4",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung"
+        ]
+    },
+    "Brainsketching": {
+        "ktSelectorName": "Brain Sketching",
+        "gruppe": "4-8",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "2",
+        "ideenmenge": "3",
+        "spass": "4",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Brainstorming": {
+        "ktSelectorName": "Brainstorming",
+        "gruppe": "5-8",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "1",
+        "ideenmenge": "3",
+        "spass": "2",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Buglisting": {
+        "ktSelectorName": "Bug Listing",
+        "gruppe": "1-*",
+        "moderiert": "n",
+        "dauer": "kurz",
+        "schwierigkeit": "2",
+        "ideenmenge": "2",
+        "spass": "3",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "2",
+        "anwendungsbereiche": [
+            
+        ]
+    },
+    "Bulletproofing": {
+        "ktSelectorName": "Bullet Proofing",
+        "gruppe": "1-*",
+        "moderiert": "n",
+        "dauer": "kurz",
+        "schwierigkeit": "2",
+        "ideenmenge": "2",
+        "spass": "2",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+            "Technische Konstruktion"
+        ]
+    },
+    "Burg-Technik": {
+        "ktSelectorName": "-",
+        "gruppe": "4-*",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "2",
+        "ideenmenge": "2",
+        "spass": "2",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+            "Ideenbewertung"
+        ]
+    },
+    "CATWOE": {
+        "ktSelectorName": "CATWOE",
+        "gruppe": "1-*",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "3",
+        "spass": "2",
+        "ideenqualitaet": "4",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+            "Technische Konstruktion"
+        ]
+    },
+    "Clustering": {
+        "ktSelectorName": "Mind Mapping",
+        "gruppe": "4-8",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "2",
+        "spass": "1",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Collective Notebook": {
+        "ktSelectorName": "Collective Notebook (CNB)",
+        "gruppe": "6-*",
+        "moderiert": "y",
+        "dauer": "lange",
+        "schwierigkeit": "2",
+        "ideenmenge": "4",
+        "spass": "3",
+        "ideenqualitaet": "4",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Walt-Disney-Methode": {
+        "ktSelectorName": "Disney Creativity Strategy",
+        "gruppe": "1-5",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "1",
+        "ideenmenge": "3",
+        "spass": "3",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "2",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "5 Ws": {
+        "ktSelectorName": "Five W's and H",
+        "gruppe": "1-*",
+        "moderiert": "n",
+        "dauer": "lange",
+        "schwierigkeit": "2",
+        "ideenmenge": "3",
+        "spass": "1",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "2",
+        "anwendungsbereiche": [
+            
+        ]
+    },
+    "Four-Futures": {
+        "ktSelectorName": "-",
+        "gruppe": "1-*",
+        "moderiert": "n",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "2",
+        "spass": "3",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "2",
+        "anwendungsbereiche": [
+        
+        ]
+    },
+    "Freie Assoziation": {
+        "ktSelectorName": "Free Association",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "2",
+        "ideenmenge": "4",
+        "spass": "2",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Gap-Analyse": {
+        "ktSelectorName": "Gap Analysis",
+        "gruppe": "1-*",
+        "moderiert": "n",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "3",
+        "spass": "2",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "4",
+        "anwendungsbereiche": [
+            "Technische Konstruktion"
+        ]
+    },
+    "Generische Bewertungstechnik": {
+        "ktSelectorName": "Simple Rating Methodes",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "1",
+        "spass": "2",
+        "ideenqualitaet": "4",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Grenzenuntersuchung": {
+        "ktSelectorName": "Boundary Examination",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "2",
+        "ideenmenge": "3",
+        "spass": "2",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "4",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung"
+        ]
+    },
+    "Grußkarten": {
+        "ktSelectorName": "Greeting Cards",
+        "gruppe": "8-*",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "4",
+        "spass": "3",
+        "ideenqualitaet": "4",
+        "ideenabwegigkeit": "",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Voting (gut oder schlecht)": {
+        "ktSelectorName": "Anonymous Voting",
+        "gruppe": "4-*",
+        "moderiert": "y",
+        "dauer": "kurz",
+        "schwierigkeit": "2",
+        "ideenmenge": "1",
+        "spass": "1",
+        "ideenqualitaet": "1",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+            "Namensfindung"
+        ]
+    },
+    "Klischees, Sprichwörter, Maximen": {
+        "ktSelectorName": "-",
+        "gruppe": "1-*",
+        "moderiert": "n",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "3",
+        "spass": "2",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Werbung, Verkaufsförderung",
+            "Ideenfindung"
+        ]
+    },
+    "Kreative Evaluation": {
+        "ktSelectorName": "Simple Rating Methodes",
+        "gruppe": "1-*",
+        "moderiert": "n",
+        "dauer": "kurz",
+        "schwierigkeit": "1",
+        "ideenmenge": "1",
+        "spass": "1",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Kreativität und Umsetzbarkeit": {
+        "ktSelectorName": "-",
+        "gruppe": "1-*",
+        "moderiert": "n",
+        "dauer": "kurz",
+        "schwierigkeit": "2",
+        "ideenmenge": "1",
+        "spass": "1",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Ideenbewertung"
+        ]
+    },
+    "Metaphern": {
+        "ktSelectorName": "-",
+        "gruppe": "4-*",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "3",
+        "spass": "3",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme",
+            "Ideenfindung"
+        ]
+    },
+    "635 Methode": {
+        "ktSelectorName": "Brainwriting 6-3-5",
+        "gruppe": "6-6",
+        "moderiert": "yn",
+        "dauer": "kurz",
+        "schwierigkeit": "1",
+        "ideenmenge": "4",
+        "spass": "4",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Morphologischer Kasten": {
+        "ktSelectorName": "Morphological Analysis",
+        "gruppe": "3-6",
+        "moderiert": "y",
+        "dauer": "lange",
+        "schwierigkeit": "4",
+        "ideenmenge": "3",
+        "spass": "4",
+        "ideenqualitaet": "4",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Negatives Brainstorming": {
+        "ktSelectorName": "Negative Brainstorming",
+        "gruppe": "4-8",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "1",
+        "ideenmenge": "1",
+        "spass": "2",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Normal und abgefahren": {
+        "ktSelectorName": "-",
+        "gruppe": "8-16",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "2",
+        "ideenmenge": "4",
+        "spass": "2",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "4",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Osborn-Checkliste": {
+        "ktSelectorName": "Osborn's Checklist",
+        "gruppe": "1-*",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "4",
+        "ideenmenge": "3",
+        "spass": "4",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Kopfstandmethode": {
+        "ktSelectorName": "-",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "3",
+        "spass": "3",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Ideenfindung"
+        ]
+    },
+    "Progressive Abstraktion": {
+        "ktSelectorName": "-",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "3",
+        "spass": "3",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "4",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Provokationstechnik": {
+        "ktSelectorName": "Provocation",
+        "gruppe": "2-*",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "3",
+        "spass": "4",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "5",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Reizwortmethode": {
+        "ktSelectorName": "Random Stimuli",
+        "gruppe": "4-8",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "2",
+        "ideenmenge": "3",
+        "spass": "2",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Ideenfindung",
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "SCAMPER": {
+        "ktSelectorName": "SCAMPER",
+        "gruppe": "4-*",
+        "moderiert": "yn",
+        "dauer": "lange",
+        "schwierigkeit": "4",
+        "ideenmenge": "2",
+        "spass": "2",
+        "ideenqualitaet": "4",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion"
+        ]
+    },
+    "6-Hüte-Methode": {
+        "ktSelectorName": "Six Thinking Hats",
+        "gruppe": "6-12",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "2",
+        "spass": "3",
+        "ideenqualitaet": "4",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Speed Brainstorming": {
+        "ktSelectorName": "Brainstorming",
+        "gruppe": "4-8",
+        "moderiert": "y",
+        "dauer": "kurz",
+        "schwierigkeit": "3",
+        "ideenmenge": "3",
+        "spass": "2",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Superheldentechnik": {
+        "ktSelectorName": "Super Heroes",
+        "gruppe": "4-8",
+        "moderiert": "y",
+        "dauer": "lange",
+        "schwierigkeit": "4",
+        "ideenmenge": "5",
+        "spass": "5",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "4",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "SWOT Analyse": {
+        "ktSelectorName": "SWOT Analysis",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "2",
+        "spass": "2",
+        "ideenqualitaet": "4",
+        "ideenabwegigkeit": "2",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Szenariotechnik": {
+        "ktSelectorName": "Alternative Scenarios",
+        "gruppe": "1-*",
+        "moderiert": "n",
+        "dauer": "kurz",
+        "schwierigkeit": "4",
+        "ideenmenge": "3",
+        "spass": "3",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+            "Ideenfindung"
+        ]
+    },
+    "Übertreibungstechnik": {
+        "ktSelectorName": "Exaggeration",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "3",
+        "spass": "3",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Werbung, Verkaufsförderung"
+        ]
+    },
+    "Vorteil-Nachteil": {
+        "ktSelectorName": "-",
+        "gruppe": "1-*",
+        "moderiert": "n",
+        "dauer": "mittel",
+        "schwierigkeit": "2",
+        "ideenmenge": "2",
+        "spass": "1",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+            "Ideenbewertung"
+        ]
+    },
+    "Vorteile, Einschränkungen, Alleinstellungsmerkmale": {
+        "ktSelectorName": "Advantages, Limitations and Unique Qualities",
+        "gruppe": "4-8",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "4",
+        "spass": "2",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme",
+            "Namensfindung"
+        ]
+    },
+    "Wichtig oder unwichtig": {
+        "ktSelectorName": "-",
+        "gruppe": "1-*",
+        "moderiert": "n",
+        "dauer": "kurz",
+        "schwierigkeit": "2",
+        "ideenmenge": "1",
+        "spass": "1",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+        
+        ]
+    },
+    "Wishful Thinking": {
+        "ktSelectorName": "Whishing",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "4",
+        "spass": "3",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "4",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Zielorientierung": {
+        "ktSelectorName": "Goal Orientation",
+        "gruppe": "1-*",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "3",
+        "ideenmenge": "3",
+        "spass": "2",
+        "ideenqualitaet": "4",
+        "ideenabwegigkeit": "1",
+        "anwendungsbereiche": [
+            "Technische Konstruktion"
+        ]
+    },
+    "Zufallstechnik": {
+        "ktSelectorName": "Random Stimuli",
+        "gruppe": "4-8",
+        "moderiert": "y",
+        "dauer": "mittel",
+        "schwierigkeit": "2",
+        "ideenmenge": "3",
+        "spass": "2",
+        "ideenqualitaet": "2",
+        "ideenabwegigkeit": "3",
+        "anwendungsbereiche": [
+            "Ideenfindung",
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Organisatorische Probleme"
+        ]
+    },
+    "Semantische Intuition": {
+        "ktSelectorName": "-",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "mittel",
+        "schwierigkeit": "4",
+        "ideenmenge": "3",
+        "spass": "3",
+        "ideenqualitaet": "3",
+        "ideenabwegigkeit": "4",
+        "anwendungsbereiche": [
+            "Technische Konstruktion",
+            "Werbung, Verkaufsförderung",
+            "Namensfindung"
+        ]
+    },
+    "Business Model Canvas": {
+        "ktSelectorName": "-",
+        "gruppe": "1-*",
+        "moderiert": "yn",
+        "dauer": "lang",
+        "schwierigkeit": "5",
+        "ideenmenge": "4",
+        "spass": "3",
+        "ideenqualitaet": "5",
+        "ideenabwegigkeit": "2",
+        "anwendungsbereiche": [
+            "Werbung, Verkaufsförderung",
+            "Problemfindung"
+        ]
+    }
+}

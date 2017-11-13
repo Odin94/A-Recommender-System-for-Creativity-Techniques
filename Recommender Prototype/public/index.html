@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Creativity Technique Recommender</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/css/bootstrap-slider.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/2c430df85a.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- STEP ONE -->
+    <div id="goalChoice" class="container-fluid">
+        <div class="cover">
+            <h1 id="header">Recommender für Kreativitätstechniken</h1>
+        </div>
+        <div class="stepOneColumn">
+            <h2>Wähle ein oder mehrere Ziele, die du mit einer Kreativitätstechnik erreichen möchtest:</h2>
+            <div id="goals" class="row">
+                <div id="goals-Problems" class="col col-md-2 col-md-offset-2 lifted">
+                    <h3>Probleme erkennen und verdeutlichen</h3>
+                </div>
+                <div id="goals-Knowledge" class="col col-md-2 lifted">
+                    <h3>Problemrelevantes Wissen sammeln</h3>
+                </div>
+                <div id="goals-Ideas" class="col col-md-2 lifted">
+                    <h3>Neue Ideen generieren</h3>
+                </div>
+                <div id="goals-Evaluate" class="col col-md-2 lifted">
+                    <h3>Bestehende Ideen bewerten und auswählen</h3>
+                </div>
+            </div>
+        </div>
+        <div class="stepOneColumn">
+            <!-- <h4 id="explanationHeadline">Wann du welche Ziele wählen solltest:</h4> -->
+            <div id="explanations" class="row">
+                <div id="ex-Problems" class="col col-md-2 col-md-offset-2">
+                    <h4>Wenn du weißt, dass du ein Problem kreativ lösen musst, du aber nicht genau weißt, was das Problem ist.</h4>
+                </div>
+                <div id="ex-Knowledge" class="col col-md-2">
+                    <h4>Wenn du weißt, welches Problem du lösen musst, du aber nicht genug über das Problem weißt, um sinnvolle
+                        Ideen zu generieren.</h4>
+                </div>
+                <div id="ex-Ideas" class="col col-md-2">
+                    <h4>Wenn du weißt, welches Problem du lösen musst, du dich mit dem Problem auskennst und Ideen zur Lösung
+                        generieren möchtest.</h4>
+                </div>
+                <div id="ex-Evaluate" class="col col-md-2">
+                    <h4>Wenn du bereits mehrere Ideen zur Lösung des Problems hast und diese Bewerten willst bzw. dich entscheiden
+                        musst, welche Lösungsidee du anwenden willst.</h4>
+                </div>
+            </div>
+        </div>
+        <!-- KO-Criteria -->
+        <div id="KOCriteria">
+            <form>
+                <h1>Filter Wählen:</h1>
+                <!-- Group / Single -->
+                <fieldset class="form-group">
+                    <h4><strong>Gruppengröße:</strong></h4>
+                    <hr>
+                    <input type="text" class="form-control" id="gruppenGroesse" placeholder="z.B. 5">
+                </fieldset>
+                <!-- Moderated -->
+                <fieldset class="form-group">
+                    <h4><strong>Moderator nötig:</strong></h4>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="moderatedKO" id="radioModeratedKO" value="radioModerated">
+                            Ja
+                            </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="moderatedKO" id="radioNotModeratedKO" value="radioNotModerated">
+                            Nein
+                            </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="moderatedKO" id="radioModeratedBothKO" value="egal" checked>
+                            Egal
+                            </label>
+                    </div>
+                </fieldset>
+                <!-- Duration -->
+                <fieldset class="form-group">
+                    <h4><strong>Anwendungsdauer:</strong></h4>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="durationKO" id="radioShortDurationKO" value="kurz">
+                            Kurz
+                            </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="durationKO" id="radioMediumDurationKO" value="mittel">
+                            Mittel
+                            </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="durationKO" id="radioLongDurationKO" value="lange">
+                            Lang
+                            </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="durationKO" id="radioBothDurationKO" value="egal" checked>
+                            Egal
+                            </label>
+                    </div>
+                </fieldset>
+                <!-- Difficulty -->
+                <fieldset class="form-group">
+                    <h4><strong>Schwierigkeit:</strong></h4>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="difficultyKO" id="radioEasyKO" value="anfaenger">
+                            Standard
+                            </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="difficultyKO" id="radioDifficultKO" value="fortgeschritten">
+                            Experte
+                            </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="difficultyKO" id="radioDiffBothKO" value="egal" checked>
+                            Egal
+                            </label>
+                    </div>
+                </fieldset>
+
+                <!-- Ideen-sliders -->
+                <fieldset class="form-group">
+                    <h4><strong>Am wichtigsten ist mir...</strong></h4>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="priority" value="menge">
+                            ...die Ideenmenge
+                            </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="priority" value="qualitaet" checked>
+                            ...die Ideenqualität
+                            </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="priority" value="diversitaet">
+                            ...die Ideendiversität
+                        </label>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <br>
+        <button id="generateRecommendations" class="btn btn-lg btn-primary">Empfehlungen Generieren!</button>
+    </div>
+    <!-- STEP TWO -->
+    <!-- Modal -->
+    <div class="stepTwo">
+        <div class="modal fade" id="filterModal" tabindex="-1" role="dialog" aria-labelledby="filterModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="filterModalLabel">Filter ändern</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="KOCriteria">
+                            <form>
+                                <!-- Modal Group / Single -->
+                                <fieldset class="form-group">
+                                    <h4><strong>Gruppengröße:</strong></h4>
+                                    <hr>
+                                    <input type="text" class="form-control" id="gruppenGroesseModal" placeholder="z.B. 5">
+                                </fieldset>
+                                <!-- MODAL Moderated -->
+                                <fieldset class="form-group">
+                                    <h4><strong>Moderator nötig:</strong></h4>
+                                    <hr>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="moderated" id="radioModeratedModal" value="radioModerated">
+                            Ja
+                            </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="moderated" id="radioNotModeratedModal" value="radioNotModerated">
+                            Nein
+                            </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="moderated" id="radioModeratedBothModal" value="egal" checked>
+                            Egal
+                            </label>
+                                    </div>
+                                </fieldset>
+                                <!-- Modal Duration -->
+                                <fieldset class="form-group">
+                                    <h4><strong>Anwendungsdauer:</strong></h4>
+                                    <hr>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="duration" id="radioShortDurationModal" value="kurz">
+                            Kurz
+                            </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="duration" id="radioMediumDurationModal" value="mittel">
+                            Mittel
+                            </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="duration" id="radioLongDurationModal" value="lange">
+                            Lang
+                            </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="duration" id="radioBothDurationModal" value="egal" checked>
+                            Egal
+                            </label>
+                                    </div>
+                                </fieldset>
+                                <!-- Modal Difficulty -->
+                                <fieldset class="form-group">
+                                    <h4><strong>Schwierigkeit:</strong></h4>
+                                    <hr>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="difficulty" id="anfaengerModal" value="anfaenger">
+                            Standard
+                            </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="difficulty" id="fortgeschrittenModal" value="fortgeschritten">
+                            Experte
+                            </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="difficulty" id="egalModal" value="egal" checked>
+                            Egal
+                            </label>
+                                    </div>
+                                </fieldset>
+
+                                <!-- Modal Ideen-sliders -->
+                                <fieldset class="form-group">
+                                    <h4><strong>Minimale...</strong></h4>
+                                    <hr>
+
+                                    <h4 class="filterSlider menge"><strong>Ideenmenge:</strong><input id="ideenMengeSliderModal" data-slider-id='1Slider'
+                                            type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="1"
+                                        /></h4>
+                                    <h4 class="filterSlider quali"><strong>Ideenqualität:</strong> <input id="ideenQualiSliderModal" data-slider-id='2Slider'
+                                            type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="1"
+                                        /></h4>
+                                    <h4 class="filterSlider divers"><strong>Ideendiversität:</strong> <input id="ideenDiversSliderModal" data-slider-id='3Slider'
+                                            type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="1"
+                                        /></h4>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Abbrechen</button>
+                        <button id="modalUseFiltersButton" type="button" class="btn btn-primary" data-dismiss="modal">Filter anwenden</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="filters">
+            <ul class="list-group list-group-horizontal">
+                <li title="Prioritäten- oder Filteranpassung rückgängig machen" id="undoButton" class="list-group-item"><i class="fa fa-undo" aria-hidden="true"></i>
+                </li>
+                <li class="list-group-item">Gruppe: <span id="topGroup"></span></li>
+                <li class="list-group-item">Moderiert: <span id="topModeriert"></span></li>
+                <li class="list-group-item">Dauer: <span id="topDauer"></span></li>
+                <!-- <li class="list-group-item">Ideenmenge: <span id="topMenge"></span></li> -->
+                <!-- <li class="list-group-item">Ideenqualität: <span id="topQuali"></span></li> -->
+                <!-- <li class="list-group-item">Ideendiversität: <span id="topDivers"></span></li> -->
+                <li class="list-group-item">Schwierigkeit: <span id="topSchwierigkeit"></span></li>
+                <li title="Filter editieren" id="editButton" class="list-group-item" data-toggle="modal" data-target="#filterModal"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+        <hr class="whiteHR">
+        <div class="row">
+            <div id="critiques" class="col-md-offset-1 col-md-2 col-xs-3">
+                <h2>Prioritäten anpassen:</h2>
+                <div class="progress">
+                    <div id="dauerBar" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        70%
+                    </div>
+                </div>
+                <div id="geringereDauerButton" class="btn btn-block btn-lg btn-primary">Kürzere Dauer</div>
+                <hr>
+                <div class="progress">
+                    <div id="schwierigkeitBar" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                        style="width:70%">
+                        70%
+                    </div>
+                </div>
+                <div id="geringereSchwierigkeitButton" class="btn btn-block btn-lg btn-primary">Geringere Schwierigkeit</div>
+                <hr>
+                <div class="progress">
+                    <div id="mengeBar" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        70%
+                    </div>
+                </div>
+                <div id="hoehereMengeButton" class="btn btn-block btn-lg btn-primary">Höhere Ideenmenge</div>
+                <hr>
+                <div class="progress">
+                    <div id="qualitaetBar" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        70%
+                    </div>
+                </div>
+                <div id="hoehereQualitaetButton" class="btn btn-block btn-lg btn-primary">Höhere Ideenqualität</div>
+                <hr>
+                <div class="progress">
+                    <div id="diversitaetBar" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                        style="width:70%">
+                        70%
+                    </div>
+                </div>
+                <div id="hoehereDiversitaetButton" class="btn btn-block btn-lg btn-primary">Höhere Ideendiversität</div>
+                <hr>
+                <div class="progress">
+                    <div id="spassBar" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        70%
+                    </div>
+                </div>
+                <div id="mehrSpassButton" class="btn btn-block btn-lg btn-primary">Mehr Spaß</div>
+                <hr>
+                <div id="resetButton" class="btn btn-block btn-lg btn-warning">Prioritäten zurücksetzen</div>
+            </div>
+            <div id="recommendations" class="col-xs-offset-1 col-md-7 col-xs-8">
+                <div class="row technique">
+                    <div id="firstTechnique">
+                        <div class="col-lg-9 col-sm-8 col-xs-7 techniqueDescription">
+                            <h1 id="firstTechniqueName"></h1>
+                            <p id="firstTechniqueDescription"></p>
+                            <button id="firstTechniqueSimilarButton" class="btn btn-lg btn-warning">Ähnliche Technik</button>
+                            <button id="firstTechniquePickButton" class="btn btn-lg btn-success">Technik auswählen</button>
+                        </div>
+                        <div class="col-lg-3 col-sm-4 col-xs-5 techniqueProperties">
+                            <h4><strong>Gruppe:</strong> <span id="firstTechniqueGruppe"></span></h4>
+                            <h4><strong>Moderiert:</strong> <span id="firstTechniqueMod"></span></h4>
+                            <h4><strong>Dauer:</strong> <span id="firstTechniqueDauer"></span></h4>
+                            <hr>
+                            <h4><strong>Ideenmenge:</strong> <span id="firstTechniqueIdeenmenge"></span></h4>
+                            <h4><strong>Ideenqualität:</strong> <span id="firstTechniqueQualitaet"></span></h4>
+                            <h4><strong>Ideendiversität:</strong> <span id="firstTechniqueDiversitaet"></span></h4>
+                            <hr>
+                            <h4><strong>Schwierigkeit:</strong> <span id="firstTechniqueSchwierigkeit"></span></h4>
+                            <h4><strong>Spaß:</strong> <span id="firstTechniqueSpass"></span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row technique">
+                    <div id="secondTechnique">
+                        <div class="col-lg-9 col-sm-8 col-xs-7 techniqueDescription">
+                            <h1 id="secondTechniqueName"></h1>
+                            <p id="secondTechniqueDescription"></p>
+                            <button id="secondTechniqueSimilarButton" class="btn btn-lg btn-warning">Ähnliche Technik</button>
+                            <button id="secondTechniquePickButton" class="btn btn-lg btn-success">Technik auswählen</button>
+                        </div>
+                        <div class="col-lg-3 col-sm-4 col-xs-5 techniqueProperties">
+                            <h4><strong>Gruppe:</strong> <span id="secondTechniqueGruppe"></span></h4>
+                            <h4><strong>Moderiert:</strong> <span id="secondTechniqueMod"></span></h4>
+                            <h4><strong>Dauer:</strong> <span id="secondTechniqueDauer"></span></h4>
+                            <hr>
+                            <h4><strong>Ideenmenge:</strong> <span id="secondTechniqueIdeenmenge"></span></h4>
+                            <h4><strong>Ideenqualität:</strong> <span id="secondTechniqueQualitaet"></span></h4>
+                            <h4><strong>Ideendiversität:</strong> <span id="secondTechniqueDiversitaet"></span></h4>
+                            <hr>
+                            <h4><strong>Schwierigkeit:</strong> <span id="secondTechniqueSchwierigkeit"></span></h4>
+                            <h4><strong>Spaß:</strong> <span id="secondTechniqueSpass"></span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row technique">
+                    <div id="thirdTechnique">
+                        <div class="col-lg-9 col-sm-8 col-xs-7 techniqueDescription">
+                            <h1 id="thirdTechniqueName"></h1>
+                            <p id="thirdTechniqueDescription"></p>
+                            <button id="thirdTechniqueSimilarButton" class="btn btn-lg btn-warning">Ähnliche Technik</button>
+                            <button id="thirdTechniquePickButton" class="btn btn-lg btn-success">Technik auswählen</button>
+                        </div>
+                        <div class="col-lg-3 col-sm-4 col-xs-5 techniqueProperties">
+                            <h4><strong>Gruppe:</strong> <span id="thirdTechniqueGruppe"></span></h4>
+                            <h4><strong>Moderiert:</strong> <span id="thirdTechniqueMod"></span></h4>
+                            <h4><strong>Dauer:</strong> <span id="thirdTechniqueDauer"></span></h4>
+                            <hr>
+                            <h4><strong>Ideenmenge:</strong> <span id="thirdTechniqueIdeenmenge"></span></h4>
+                            <h4><strong>Ideenqualität:</strong> <span id="thirdTechniqueQualitaet"></span></h4>
+                            <h4><strong>Ideendiversität:</strong> <span id="thirdTechniqueDiversitaet"></span></h4>
+                            <hr>
+                            <h4><strong>Schwierigkeit:</strong> <span id="thirdTechniqueSchwierigkeit"></span></h4>
+                            <h4><strong>Spaß:</strong> <span id="thirdTechniqueSpass"></span></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery & Bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/bootstrap-slider.min.js"></script>
+    <!-- custom scripts -->
+    <script src="js/recommender.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
